@@ -9,3 +9,10 @@ var grilledCheeseIngredients = ['bread','mild cheese','sharp cheese','butter','t
 var tomatoSauceIngredients = ['tomato','garlic','olive oil', 'basil', 'oregano']
 
 var chocolateBars = ['snickers','hundred grand','kitkat','skittles']
+
+function addElementToBeginningOfArray(arr, element) {
+  arr.unshift(element)
+}
+function destructivelyAddElementToBeginningOfArray(arr, element) {
+
+}
