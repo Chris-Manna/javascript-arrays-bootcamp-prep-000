@@ -4,9 +4,9 @@ function addElementToBeginningOfArray(arr, element) {
   return [element, ...arr]
 }
 function destructivelyAddElementToBeginningOfArray(arr, element) {
-  console.log(arr);
+  console.log(`Hello 1: ${arr}`)
   arr.unshift(element)
-  console.log(arr);
+  console.log(`Hello 2: ${arr}`)
   return arr
 }
 
